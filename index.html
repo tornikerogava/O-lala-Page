@@ -17,7 +17,6 @@
         <img id="logo" src="./Images/logo.png" width="100px;" />
       </div>
       <ul class="nav-links">
-        <li><a href="#">მთავარი</a></li>
         <li><a href="#">ჩვენს შესახებ</a></li>
         <li><a href="#">ჩვენი ბრენდები</a></li>
         <li><a href="#">გალერია</a></li>
@@ -47,5 +46,17 @@
         <div class="line3"></div>
       </div>
     </nav>
+    <script>
+      const navSlide = () => {
+        const burger = document.querySelector(".burger");
+        const nav = document.querySelector(".nav-links");
+
+        burger.addEventListener("click", () => {
+          nav.classList.toggle("nav-active");
+        });
+      };
+
+      navSlide();
+    </script>
   </body>
 </html>
