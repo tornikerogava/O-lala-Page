@@ -15,6 +15,9 @@ nav {
 .logo {
   margin-top: 10px;
 }
+#logo {
+  width: 8rem;
+}
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -93,4 +96,88 @@ nav {
 
 .nav-active {
   transform: translateX(0%);
+}
+
+.line1,
+.line2 {
+  display: flex;
+  padding: 2rem 4rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img1 img,
+.img2 img {
+  width: 40vw;
+}
+.text1,
+.text2 {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.title1,
+.title2 {
+  padding-bottom: 1rem;
+}
+.decor1,
+.decor2 {
+  width: 7rem;
+  height: 0.2rem;
+  background-color: #4fc0b6;
+  margin-top: 5px;
+}
+.paragraph1 {
+}
+
+.footer {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  bottom: 0px;
+
+  background-color: #f7efe8;
+}
+
+.map {
+  padding: 1rem;
+}
+#map {
+  height: 80%;
+}
+.bot-nav {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}
+
+.bot-social {
+  padding-top: 1rem;
+  display: flex;
+
+  width: 60%;
+}
+.bot-social-links {
+  display: flex;
+
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+.bot-social-links li {
+  padding-left: 10px;
+}
+.bot-social-links img {
+  width: 2rem;
+}
+.bot-text {
+  text-decoration: none;
+  list-style-type: none;
+}
+.bot-text li {
+  padding: 0.2rem, 0;
 }
